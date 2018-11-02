@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h3>POS Web API Services!</h3>
+    <p>Welcome to Web API.</p>
+    <br>
+    <h3>Documentation</h3>
+    <h4>Login:</h4>
+    <h5>url: /:suffix/api/auth</h5>
+    <p>userName : String, <br> password : String</p>
+    <br>
+    <h4>Category:</h4>
+    <h5>url: /:suffix/api/category</h5>
+    <p>
+        initial : String, <br>
+        name : String, <br>
+        active : Boolean [true/false]
+    </p>
+    <br>
+    <h4>Variant:</h4>
+    <h5>url: /:suffix/api/variant</h5>
+    <p>
+        categoryId : String, <br>
+        initial : String, <br>
+        name : String, <br>
+        active : Boolean [true/false]
+    </p>
+    <br>
+    <h4>Product</h4>
+    <p>
+        variantId : String, <br>
+        initial : String, <br>
+        name : String, <br>
+        description : String, <br>
+        price : Number, <br>
+        active : Boolean [true/false]
+    </p>
+
+</body>
+</html>
